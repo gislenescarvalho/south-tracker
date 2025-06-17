@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue'
 import HabitList from './components/HabitList.vue'
+import PWAInstallPrompt from './components/PWAInstallPrompt.vue'
 
 const isDarkMode = ref(false)
 
@@ -50,6 +51,7 @@ watch(isDarkMode, (newValue) => {
         </button>
       </div>
       <HabitList />
+      <PWAInstallPrompt />
     </div>
   </div>
 </template>
