@@ -45,4 +45,4 @@ npm run build
 
 O projeto é automaticamente deployado para o GitHub Pages através do GitHub Actions quando há push na branch main.
 
-Acesse a versão online em: https://SEU_USUARIO.github.io/south-tracker/
+Acesse a versão online do meu aplicativo em: https://gislenescarvalho.github.io/south-tracker/
