@@ -1,5 +1,48 @@
-# Vue 3 + TypeScript + Vite
+# South Tracker
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Um aplicativo de rastreamento de hábitos desenvolvido com Vue 3, TypeScript e Tailwind CSS.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Funcionalidades
+
+- Adicionar novos hábitos com emoji personalizado
+- Marcar hábitos como concluídos
+- Interface responsiva e moderna
+- Modo escuro/claro
+- Animações suaves
+- Armazenamento local dos hábitos
+
+## Tecnologias Utilizadas
+
+- Vue 3
+- TypeScript
+- Tailwind CSS
+- Vite
+- GitHub Actions para CI/CD
+
+## Como Executar Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/SEU_USUARIO/south-tracker.git
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+```
+
+4. Para build de produção:
+```bash
+npm run build
+```
+
+## Deploy
+
+O projeto é automaticamente deployado para o GitHub Pages através do GitHub Actions quando há push na branch main.
+
+Acesse a versão online em: https://SEU_USUARIO.github.io/south-tracker/
